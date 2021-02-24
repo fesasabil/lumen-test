@@ -4,12 +4,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\User;
 
-class Phone extends Model
+class Address extends Model
 {
-	protected $table = 'phone';
+	protected $table = 'address';
 
 	protected $fillable = [
-        'user_id', 'number'
+        'user_id', 'address'
     ];
 
     public function user()
